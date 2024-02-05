@@ -6,7 +6,6 @@ def countWords(sentences):
         if char == ' ':
             word_count += 1
     
-    # Add 1 to count the last word, as it may not end with a space
     return word_count + 1
 
 
